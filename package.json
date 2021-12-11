@@ -8,6 +8,16 @@
     "./dist/react-chain-icons.cjs.js": "./dist/react-chain-icons.browser.cjs.js",
     "./dist/react-chain-icons.esm.js": "./dist/react-chain-icons.browser.esm.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nftlabs/chain-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nftlabs/chain-icons/issues"
+  },
+  "homepage": "https://github.com/nftlabs/chain-icons#readme",
+  "author": "@jnsdls",
+  "license": "Apache-2.0",
   "types": "dist/react-chain-icons.cjs.d.ts",
   "scripts": {
     "download": "node scripts/download-icons.mjs",
@@ -22,9 +32,15 @@
     "dist/",
     "svg/"
   ],
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
+  "keywords": [
+    "chain",
+    "icon",
+    "react",
+    "react-icons",
+    "react-chain-icons",
+    "thirdweb",
+    "web3"
+  ],
   "peerDependencies": {
     "react": "*"
   },
