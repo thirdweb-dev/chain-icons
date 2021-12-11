@@ -1,0 +1,47 @@
+{
+  "name": "react-chain-icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/react-chain-icons.cjs.js",
+  "module": "dist/react-chain-icons.esm.js",
+  "browser": {
+    "./dist/react-chain-icons.cjs.js": "./dist/react-chain-icons.browser.cjs.js",
+    "./dist/react-chain-icons.esm.js": "./dist/react-chain-icons.browser.esm.js"
+  },
+  "types": "dist/react-chain-icons.cjs.d.ts",
+  "scripts": {
+    "download": "node scripts/download-icons.mjs",
+    "generate:jsx": "node scripts/convert-svg.mjs",
+    "generate:index": "node scripts/generate-index.mjs",
+    "generate:build": "yarn preconstruct build",
+    "clean": "rm -rf dist/ && rm -rf src/",
+    "build": "yarn clean && yarn download && yarn generate:jsx && yarn generate:index && yarn generate:build",
+    "postinstall": "yarn build"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist/",
+    "svg/"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "react": "*",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@preconstruct/cli": "^2.1.5",
+    "@svgr/core": "^6.1.1",
+    "@svgr/plugin-jsx": "^6.1.0",
+    "@svgr/plugin-prettier": "^6.0.0",
+    "@svgr/plugin-svgo": "^6.1.0",
+    "@types/react": "^17.0.37",
+    "got": "^12.0.0",
+    "typescript": "^4.5.3"
+  }
+}
