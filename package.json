@@ -15,8 +15,7 @@
     "generate:index": "node scripts/generate-index.mjs",
     "generate:build": "yarn preconstruct build",
     "clean": "rm -rf dist/ && rm -rf src/",
-    "build": "yarn clean && yarn download && yarn generate:jsx && yarn generate:index && yarn generate:build",
-    "postinstall": "yarn build"
+    "build": "yarn clean && yarn download && yarn generate:jsx && yarn generate:index && yarn generate:build"
   },
   "sideEffects": false,
   "files": [
@@ -43,5 +42,8 @@
     "@types/react": "^17.0.37",
     "got": "^12.0.0",
     "typescript": "^4.5.3"
+  },
+  "resolutions": {
+    "glob-parent": "^5.1.2"
   }
 }
