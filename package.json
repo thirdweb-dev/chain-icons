@@ -1,21 +1,21 @@
 {
-  "name": "@3rdweb/chain-icons",
+  "name": "@thirdweb-dev/chain-icons",
   "version": "1.0.1",
   "description": "",
-  "main": "dist/react-chain-icons.cjs.js",
-  "module": "dist/react-chain-icons.esm.js",
+  "main": "dist/thirdweb-dev-chain-icons.cjs.js",
+  "module": "dist/thirdweb-dev-chain-icons.esm.js",
   "browser": {
-    "./dist/react-chain-icons.cjs.js": "./dist/react-chain-icons.browser.cjs.js",
-    "./dist/react-chain-icons.esm.js": "./dist/react-chain-icons.browser.esm.js"
+    "./dist/thirdweb-dev-chain-icons.cjs.js": "./dist/thirdweb-dev-chain-icons.browser.cjs.js",
+    "./dist/thirdweb-dev-chain-icons.esm.js": "./dist/thirdweb-dev-chain-icons.browser.esm.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nftlabs/chain-icons.git"
+    "url": "git+https://github.com/thirdweb-dev/chain-icons.git"
   },
   "bugs": {
-    "url": "https://github.com/nftlabs/chain-icons/issues"
+    "url": "https://github.com/thirdweb-dev/chain-icons/issues"
   },
-  "homepage": "https://github.com/nftlabs/chain-icons#readme",
+  "homepage": "https://github.com/thirdweb-dev/chain-icons#readme",
   "author": "@jnsdls",
   "license": "Apache-2.0",
   "types": "dist/react-chain-icons.cjs.d.ts",
@@ -25,7 +25,8 @@
     "generate:index": "node scripts/generate-index.mjs",
     "generate:build": "yarn preconstruct build",
     "clean": "rm -rf dist/ && rm -rf src/",
-    "build": "yarn clean && yarn download && yarn generate:jsx && yarn generate:index && yarn generate:build"
+    "build": "yarn clean && yarn download && yarn generate:jsx && yarn generate:index && yarn generate:build",
+    "fix": "preconstruct fix"
   },
   "sideEffects": false,
   "files": [
