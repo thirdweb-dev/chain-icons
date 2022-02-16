@@ -2,12 +2,10 @@
   "name": "@thirdweb-dev/chain-icons",
   "version": "1.0.1",
   "description": "",
-  "main": "dist/thirdweb-dev-chain-icons.cjs.js",
-  "module": "dist/thirdweb-dev-chain-icons.esm.js",
-  "browser": {
-    "./dist/thirdweb-dev-chain-icons.cjs.js": "./dist/thirdweb-dev-chain-icons.browser.cjs.js",
-    "./dist/thirdweb-dev-chain-icons.esm.js": "./dist/thirdweb-dev-chain-icons.browser.esm.js"
-  },
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thirdweb-dev/chain-icons.git"
@@ -18,12 +16,11 @@
   "homepage": "https://github.com/thirdweb-dev/chain-icons#readme",
   "author": "@jnsdls",
   "license": "Apache-2.0",
-  "types": "dist/react-chain-icons.cjs.d.ts",
   "scripts": {
     "download": "node scripts/download-icons.mjs",
     "generate:jsx": "node scripts/convert-svg.mjs",
     "generate:index": "node scripts/generate-index.mjs",
-    "generate:build": "yarn preconstruct build",
+    "generate:build": "tsup --env.NODE_ENV production --dts --format esm,cjs",
     "clean": "rm -rf dist/ && rm -rf src/",
     "build": "yarn clean && yarn download && yarn generate:jsx && yarn generate:index && yarn generate:build",
     "fix": "preconstruct fix"
@@ -50,7 +47,6 @@
     "@babel/preset-env": "^7.16.0",
     "@babel/preset-react": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
-    "@preconstruct/cli": "^2.1.5",
     "@svgr/core": "^6.1.1",
     "@svgr/plugin-jsx": "^6.1.0",
     "@svgr/plugin-prettier": "^6.0.0",
@@ -58,9 +54,19 @@
     "@types/react": "^17.0.37",
     "got": "^12.0.0",
     "react": "*",
+    "svgo-autocrop": "^1.1.1",
+    "tsup": "^5.11.11",
     "typescript": "^4.5.3"
   },
   "resolutions": {
     "glob-parent": "^5.1.2"
+  },
+  "tsup": {
+    "entry": [
+      "src/"
+    ],
+    "splitting": false,
+    "sourcemap": true,
+    "clean": true
   }
 }

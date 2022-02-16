@@ -7,8 +7,8 @@ const Blackcoin = (props: SVGProps<SVGSVGElement>) => (
       <linearGradient
         id="a"
         x1={644.29}
-        y1={434.17}
         x2={1409.37}
+        y1={434.17}
         y2={1514.28}
         gradientUnits="userSpaceOnUse"
       >

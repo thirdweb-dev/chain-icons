@@ -2,11 +2,7 @@ import * as React from "react";
 import { SVGProps } from "react";
 
 const Shipchain = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 103.24 103.31"
-    {...props}
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103 103" {...props}>
     <defs>
       <style>{".cls-2{fill:#fff}"}</style>
     </defs>
@@ -14,18 +10,16 @@ const Shipchain = (props: SVGProps<SVGSVGElement>) => (
       <g id="Layer_1-2" data-name="Layer 1">
         <path
           id="bg"
+          fill="#ec672f"
           d="M101.65 64.15a51.59 51.59 0 1 1-37.6-62.6 51.42 51.42 0 0 1 37.6 62.6Z"
-          style={{
-            fill: "#ec672f",
-          }}
         />
         <path
-          className="cls-2"
           d="M31.05 47.55h18.5v14.6a7.12 7.12 0 0 0-4.9 6.7 7 7 0 0 0 14 0 7.13 7.13 0 0 0-4.8-6.7v-14.6h18.3a1.11 1.11 0 0 0 1.1-1.1v-2.4a1.11 1.11 0 0 0-1.1-1.1h-18.8v-25.5h18.8a1.11 1.11 0 0 0 1.1-1.1V14a1.11 1.11 0 0 0-1.1-1.1h-41.1A1.11 1.11 0 0 0 30 14v2.4a1.11 1.11 0 0 0 1.1 1.1h18.2V43H31.05a1.11 1.11 0 0 0-1.1 1.1v2.4a1 1 0 0 0 1.1 1.05ZM55 69a3.3 3.3 0 1 1-3.3-3.3A3.27 3.27 0 0 1 55 69Z"
+          className="cls-2"
         />
         <path
-          className="cls-2"
           d="m67.75 53.35-.1-.1a.73.73 0 0 0-1 0l-1.8 1.8a.86.86 0 0 0-.3.6.6.6 0 0 0 .1.4.1.1 0 0 0 .1.1l.1.1a18.75 18.75 0 0 1 4.7 12.2 17.9 17.9 0 0 1-35.8 0c0-4.6 1.9-8.6 4.7-12.2l.1-.1a.1.1 0 0 1 .1-.1c.1-.1.1-.2.1-.4a.71.71 0 0 0-.3-.6l-1.8-1.8a.72.72 0 0 0-1 0l-.1.1a20.38 20.38 0 0 0-6.4 15.2 22.56 22.56 0 0 0 22.5 22.6 22.56 22.56 0 0 0 22.5-22.6 20.38 20.38 0 0 0-6.4-15.2Z"
+          className="cls-2"
         />
       </g>
     </g>

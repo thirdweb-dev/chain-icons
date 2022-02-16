@@ -2,11 +2,11 @@ import * as React from "react";
 import { SVGProps } from "react";
 
 const Beam = (props: SVGProps<SVGSVGElement>) => (
-  <svg viewBox="0 0 47 47" xmlns="http://www.w3.org/2000/svg" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47 47" {...props}>
     <defs>
       <linearGradient id="a" x2="69.924%" y1="50%" y2="50%">
-        <stop stopColor="#fff" stopOpacity={0} offset={0} />
-        <stop stopColor="#fff" offset={1} />
+        <stop offset={0} stopColor="#fff" stopOpacity={0} />
+        <stop offset={1} stopColor="#fff" />
       </linearGradient>
       <linearGradient
         id="b"
@@ -15,8 +15,8 @@ const Beam = (props: SVGProps<SVGSVGElement>) => (
         y1="31.578%"
         y2="34.803%"
       >
-        <stop stopColor="#FD76FD" stopOpacity={0} offset={0} />
-        <stop stopColor="#FF51FF" offset={1} />
+        <stop offset={0} stopColor="#FD76FD" stopOpacity={0} />
+        <stop offset={1} stopColor="#FF51FF" />
       </linearGradient>
       <linearGradient
         id="c"
@@ -25,8 +25,8 @@ const Beam = (props: SVGProps<SVGSVGElement>) => (
         y1="44.431%"
         y2="44.431%"
       >
-        <stop stopColor="#5300FF" stopOpacity={0} offset={0} />
-        <stop stopColor="#9D6EFF" offset={1} />
+        <stop offset={0} stopColor="#5300FF" stopOpacity={0} />
+        <stop offset={1} stopColor="#9D6EFF" />
       </linearGradient>
       <linearGradient
         id="d"
@@ -35,8 +35,8 @@ const Beam = (props: SVGProps<SVGSVGElement>) => (
         y1="35.409%"
         y2="42.312%"
       >
-        <stop stopColor="#AE60D6" stopOpacity={0} offset={0} />
-        <stop stopColor="#AB38E6" offset={1} />
+        <stop offset={0} stopColor="#AE60D6" stopOpacity={0} />
+        <stop offset={1} stopColor="#AB38E6" />
       </linearGradient>
     </defs>
     <g fill="none" fillRule="evenodd">

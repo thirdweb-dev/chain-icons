@@ -7,8 +7,8 @@ const Tellor = (props: SVGProps<SVGSVGElement>) => (
       <linearGradient
         id="b"
         x1={88.62}
-        y1={867.19}
         x2={104.7}
+        y1={867.19}
         y2={929.41}
         gradientTransform="translate(0 -798)"
         gradientUnits="userSpaceOnUse"
@@ -18,27 +18,15 @@ const Tellor = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#68fcbb" />
       </linearGradient>
       <clipPath id="a">
-        <path
-          style={{
-            fill: "none",
-          }}
-          d="M0 0h200v200H0z"
-        />
+        <path fill="none" d="M0 0h200v200H0z" />
       </clipPath>
     </defs>
     <g data-name="Layer 2">
-      <g
-        style={{
-          clipPath: "url(#a)",
-        }}
-        data-name="Layer 1"
-      >
+      <g clipPath="url(#a)" data-name="Layer 1">
         <circle cx={100} cy={100} r={100} />
         <path
+          fill="url(#b)"
           d="M164.8 77.5c4.4 17.2-82.3 59.7-121.6 69.8s76-39.7 71.5-56.9-96.4-3.1-57.1-13.2 102.8-16.9 107.2.3Z"
-          style={{
-            fill: "url(#b)",
-          }}
         />
       </g>
     </g>

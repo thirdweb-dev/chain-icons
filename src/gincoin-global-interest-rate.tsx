@@ -2,7 +2,7 @@ import * as React from "react";
 import { SVGProps } from "react";
 
 const GincoinGlobalInterestRate = (props: SVGProps<SVGSVGElement>) => (
-  <svg width={32} height={32} xmlns="http://www.w3.org/2000/svg" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" {...props}>
     <g fill="none">
       <circle cx={16} cy={16} r={16} fill="#008DDE" />
       <g fill="#FFF">

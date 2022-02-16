@@ -2,22 +2,12 @@ import * as React from "react";
 import { SVGProps } from "react";
 
 const BinanceUsd = (props: SVGProps<SVGSVGElement>) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 336.41 337.42"
-    {...props}
-  >
-    <defs>
-      <style>{".cls-1{fill:#f0b90b;stroke:#f0b90b}"}</style>
-    </defs>
-    <g id="Layer_2" data-name="Layer 2">
-      <g id="Layer_1-2" data-name="Layer 1">
-        <path
-          className="cls-1"
-          d="m168.2.71 41.5 42.5-104.5 104.5-41.5-41.5ZM231.2 63.71l41.5 42.5-167.5 167.5-41.5-41.5ZM42.2 126.71l41.5 42.5-41.5 41.5-41.5-41.5ZM294.2 126.71l41.5 42.5-167.5 167.5-41.5-41.5Z"
-        />
-      </g>
-    </g>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 337" {...props}>
+    <path
+      fill="#f0b90b"
+      stroke="#f0b90b"
+      d="m168.2.71 41.5 42.5-104.5 104.5-41.5-41.5Zm63 63 41.5 42.5-167.5 167.5-41.5-41.5Zm-189 63 41.5 42.5-41.5 41.5-41.5-41.5Zm252 0 41.5 42.5-167.5 167.5-41.5-41.5Z"
+    />
   </svg>
 );
 

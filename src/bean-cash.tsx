@@ -21,20 +21,20 @@ const BeanCash = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#ffd43b" />
       </linearGradient>
       <linearGradient
+        xlinkHref="#a"
         id="c"
         x1={150}
         x2={251}
         y1={157}
         y2={157}
-        xlinkHref="#a"
       />
       <linearGradient
+        xlinkHref="#a"
         id="d"
         x1={150}
         x2={187}
         y1={272}
         y2={272}
-        xlinkHref="#a"
       />
       <linearGradient
         id="b"
@@ -49,71 +49,71 @@ const BeanCash = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#357303" />
       </linearGradient>
       <linearGradient
+        xlinkHref="#a"
         id="e"
         x1={89}
         x2={137}
         y1={162}
         y2={162}
-        xlinkHref="#a"
       />
-      <linearGradient id="f" x1={58} x2={213} y1={22} y2={282} xlinkHref="#b" />
+      <linearGradient xlinkHref="#b" id="f" x1={58} x2={213} y1={22} y2={282} />
       <linearGradient
+        xlinkHref="#a"
         id="g"
         x1={86}
         x2={116}
         y1={276}
         y2={276}
-        xlinkHref="#a"
       />
-      <linearGradient id="h" x1={86} x2={97} y1={175} y2={175} xlinkHref="#a" />
+      <linearGradient xlinkHref="#a" id="h" x1={86} x2={97} y1={175} y2={175} />
       <linearGradient
+        xlinkHref="#a"
         id="i"
         x1={244}
         x2={295}
         y1={214}
         y2={214}
-        xlinkHref="#a"
       />
       <linearGradient
+        xlinkHref="#a"
         id="j"
         x1={205}
         x2={239}
         y1={246}
         y2={246}
-        xlinkHref="#a"
       />
       <linearGradient
+        xlinkHref="#a"
         id="k"
         x1={258}
         x2={309}
         y1={293}
         y2={293}
-        xlinkHref="#a"
       />
       <linearGradient
+        xlinkHref="#a"
         id="l"
         x1={196}
         x2={248}
         y1={300}
         y2={300}
-        xlinkHref="#a"
       />
       <linearGradient
+        xlinkHref="#a"
         id="m"
         x1={130}
         x2={168}
         y1={310}
         y2={310}
-        xlinkHref="#a"
       />
       <linearGradient
+        xlinkHref="#a"
         id="n"
         x1={9}
         x2={15}
         y1={161}
         y2={161}
         gradientTransform="rotate(-175 12 161)"
-        xlinkHref="#a"
       />
     </defs>
     <path

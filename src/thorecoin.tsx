@@ -3,17 +3,17 @@ import { SVGProps } from "react";
 
 const Thorecoin = (props: SVGProps<SVGSVGElement>) => (
   <svg
-    data-name="Layer 1"
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 213.53 130.24"
+    data-name="Layer 1"
+    viewBox="0 0 213 130"
     {...props}
   >
     <defs>
       <linearGradient
         id="a"
         x1={282.25}
-        y1={1336.26}
         x2={412.86}
+        y1={1336.26}
         y2={1336.26}
         gradientTransform="translate(-312.97 -1271.14)"
         gradientUnits="userSpaceOnUse"
@@ -22,14 +22,7 @@ const Thorecoin = (props: SVGProps<SVGSVGElement>) => (
         <stop offset={1} stopColor="#aa003d" />
       </linearGradient>
     </defs>
-    <circle
-      cx={65.12}
-      cy={65.12}
-      r={65.12}
-      style={{
-        fill: "url(#a)",
-      }}
-    />
+    <circle cx={65.12} cy={65.12} r={65.12} fill="url(#a)" />
     <circle cx={57.58} cy={82.27} r={4.88} />
     <circle cx={71.99} cy={82.27} r={4.88} />
     <circle cx={86.4} cy={82.27} r={4.88} />

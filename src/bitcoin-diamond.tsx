@@ -2,7 +2,7 @@ import * as React from "react";
 import { SVGProps } from "react";
 
 const BitcoinDiamond = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.6 55.3" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 55" {...props}>
     <path d="M54.7 5.3 44.6 0H19.7l-9.6 5.4L0 18.7l32.3 36.7 32.3-36.7zm6.6 12.8-12.6 6.4L44.6 12l9.3-4.5zM20.5 2h23.3l7.9 4.1-8 3.8H20.4l-7-3.7zm-9.7 5.5L19 12l-2.9 12.5-13.3-6.7zM5.4 21.6l10.3 5.3 12.6 21.7zm26.8 29.7L17.9 26.5 21.4 12h21.3l3.8 14.1zm3.6-2.8L48.6 27l10.7-5.4z" />
     <path
       fill="#fcc339"

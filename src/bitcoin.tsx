@@ -5,12 +5,12 @@ const Bitcoin = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    shapeRendering="geometricPrecision"
-    textRendering="geometricPrecision"
-    imageRendering="optimizeQuality"
     fillRule="evenodd"
     clipRule="evenodd"
-    viewBox="0 0 4091.27 4091.73"
+    imageRendering="optimizeQuality"
+    shapeRendering="geometricPrecision"
+    textRendering="geometricPrecision"
+    viewBox="0 0 4091 4091"
     {...props}
   >
     <g fillRule="nonzero">

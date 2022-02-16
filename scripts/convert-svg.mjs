@@ -1,5 +1,6 @@
 import fs from "fs";
 import { transform } from "@svgr/core";
+import autocrop from "svgo-autocrop";
 
 (async () => {
   //ensure the jsx folder exists
@@ -46,7 +47,43 @@ import { transform } from "@svgr/core";
           typescript: true,
           dimensions: true,
           svgoConfig: {
-            removeDimensions: true,
+            multipass: true,
+            plugins: [
+              {
+                name: "preset-default",
+                params: {
+                  overrides: {
+                    removeViewBox: false,
+                  },
+                },
+              },
+              "removeDimensions",
+              "sortAttrs",
+              "convertStyleToAttrs",
+              "removeScriptElement",
+              {
+                name: "removeAttrs",
+                params: {
+                  attrs: ["mask"],
+                },
+              },
+              {
+                // Run autocrop last (you'll get less issues if autocrop runs after the svgo's default 'convertTransform' and 'convertShapeToPath' plugins)
+                ...autocrop,
+                params: {
+                  autocrop: false,
+                  includeWidthAndHeightAttributes: false, // Same as enabling 'removeDimensions' plugin (and disabling 'removeViewBox' plugin).
+
+                  removeClass: true, // Remove 'class' attribute if encountered.
+                  removeStyle: false, // Remove 'style'/'font-family' attribute if encountered.
+                  removeDeprecated: true, // Remove deprecated attributes - like <svg version/baseProfile>/etc.
+
+                  // setColor: "currentColor", // Replace any colors encountered with 'currentColor'.
+                  // setColorIssue: "fail", // Fail if more than one color encountered.
+                  disableTranslateWarning: true,
+                },
+              },
+            ],
           },
           plugins: [
             "@svgr/plugin-svgo",

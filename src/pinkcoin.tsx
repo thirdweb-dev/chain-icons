@@ -2,9 +2,9 @@ import * as React from "react";
 import { SVGProps } from "react";
 
 const Pinkcoin = (props: SVGProps<SVGSVGElement>) => (
-  <svg height={32} width={32} xmlns="http://www.w3.org/2000/svg" {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" {...props}>
     <g fill="none" fillRule="evenodd">
-      <circle cx={16} cy={16} fill="#ed79aa" r={16} />
+      <circle cx={16} cy={16} r={16} fill="#ed79aa" />
       <g fill="#fff">
         <path
           d="m23.452 8.929-1.87 1.883a7.238 7.238 0 0 0-5.152-2.149c-3.915 0-7.11 3.11-7.278 7.01h-.008v7.122A10.003 10.003 0 0 1 6.5 16c0-5.523 4.446-10 9.93-10a9.865 9.865 0 0 1 7.022 2.929zm0 14.142A9.865 9.865 0 0 1 16.592 26v-2.664a7.238 7.238 0 0 0 4.99-2.147z"

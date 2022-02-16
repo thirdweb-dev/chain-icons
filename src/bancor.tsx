@@ -2,7 +2,7 @@ import * as React from "react";
 import { SVGProps } from "react";
 
 const Bancor = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} {...props}>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" {...props}>
     <g fill="none">
       <circle cx={16} cy={16} r={16} fill="#000D2B" />
       <path
