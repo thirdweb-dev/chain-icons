@@ -5,7 +5,7 @@ A quick, easy and light-weight way to add chain / network icons to your react ap
 ## Installation
 
 ```sh
-yarn add @3rdweb/chain-icons
+yarn add @thirdweb/chain-icons
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ _Example of using the Polygon Icon_
 
 ```jsx
 import React from "react";
-import { Polygon } from "@3rdweb/chain-icons";
+import { Polygon } from "@thirdweb/chain-icons";
 
 const App = () => {
   return (
