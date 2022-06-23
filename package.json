@@ -51,11 +51,11 @@
     "@svgr/plugin-jsx": "^6.1.0",
     "@svgr/plugin-prettier": "^6.0.0",
     "@svgr/plugin-svgo": "^6.1.0",
-    "@types/react": "^17.0.37",
+    "@types/react": "^18",
     "got": "^12.0.0",
     "react": "*",
     "svgo-autocrop": "^1.1.1",
-    "tsup": "^5.11.11",
+    "tsup": "^6.1.2",
     "typescript": "^4.5.3"
   },
   "resolutions": {

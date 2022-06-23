@@ -5,72 +5,61 @@ const AlphaFinanceLab = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    id="Layer_1"
-    x={0}
-    y={0}
-    enableBackground="new 0 0 100 100"
-    viewBox="0 0 100 100"
+    viewBox="0 0 32 32"
     {...props}
   >
-    <style>
-      {
-        ".st1{fill-rule:evenodd;clip-rule:evenodd;fill:#fff}.st3{fill:none;stroke:#fff;stroke-width:1.4925}"
-      }
-    </style>
-    <g id="Page-1">
-      <g id="Desktop_AlphaLandingpage" transform="translate(-144 -145)">
-        <g id="Alpha_Logo_02" transform="translate(144 145)">
-          <g id="Group-3">
-            <defs>
-              <filter
-                id="Adobe_OpacityMaskFilter"
-                width={100}
-                height={100}
-                x={0}
-                y={0}
-                filterUnits="userSpaceOnUse"
-              >
-                <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" />
-              </filter>
-            </defs>
-            <mask
-              id="mask-2_1_"
-              width={100}
-              height={100}
-              x={0}
-              y={0}
-              maskUnits="userSpaceOnUse"
-            >
-              <g filter="url(#Adobe_OpacityMaskFilter)">
-                <path id="path-1_1_" d="M0 0h100v100H0z" className="st1" />
-              </g>
-            </mask>
-            <path
-              id="Fill-1"
-              fill="#29b2ff"
-              fillRule="evenodd"
-              d="M50 0C22.4 0 0 22.4 0 50s22.4 50 50 50 50-22.4 50-50S77.6 0 50 0"
-              clipRule="evenodd"
-            />
-          </g>
-          <path
-            id="Fill-4"
-            d="m35.7 34.6-23 30.6h4.7l5-6.7h16v-3.8H25.2l15.1-20.1z"
-            className="st1"
-          />
-          <path
-            id="Fill-6"
-            d="m87.3 65.2-23-30.6h-4.6l15.1 20.1H61.6v3.8h16l5 6.7z"
-            className="st1"
-          />
-          <path id="Fill-8" d="M48.1 65.2h3.8V17.9h-3.8z" className="st1" />
-          <path id="Fill-15" d="M22 57.7h15.7v-2.2H22z" className="st1" />
-          <path id="Stroke-16" d="M22 57.7h15.7v-2.2H22z" className="st3" />
-          <path id="Fill-17" d="M62.3 57.7H78v-2.2H62.3z" className="st1" />
-          <path id="Stroke-18" d="M62.3 57.7H78v-2.2H62.3z" className="st3" />
-        </g>
-      </g>
-    </g>
+    <linearGradient
+      id="a"
+      x1={4.686}
+      x2={27.314}
+      y1={4.576}
+      y2={27.204}
+      gradientTransform="matrix(1 0 0 -1 0 31.89)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset={0} stopColor="#102054" />
+      <stop offset={1} stopColor="#1a45b8" />
+    </linearGradient>
+    <path
+      fill="url(#a)"
+      d="M16 32c8.8 0 16-7.2 16-16S24.8 0 16 0 0 7.2 0 16s7.2 16 16 16z"
+    />
+    <linearGradient
+      id="b"
+      x1={19.392}
+      x2={19.392}
+      y1={25.615}
+      y2={8.421}
+      gradientTransform="matrix(1 0 0 -1 0 31.89)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset={0} stopColor="#fff" />
+      <stop offset={1} stopColor="#fff" stopOpacity={0.6} />
+    </linearGradient>
+    <path
+      fill="url(#b)"
+      d="M16 6.3v6.3l1.1 2.9-1.1-1v3.1c1.8 2.3 4.1 4.2 6.8 5.6L16 6.3z"
+    />
+    <linearGradient
+      id="c"
+      x1={12.608}
+      x2={12.608}
+      y1={8.541}
+      y2={25.415}
+      gradientTransform="matrix(1 0 0 -1 0 31.89)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset={0} stopColor="#fff" />
+      <stop offset={1} stopColor="#fff" stopOpacity={0.6} />
+    </linearGradient>
+    <path
+      fill="url(#c)"
+      d="M16 6.3v6.3l-1.1 2.9 1.1-1v3.1c-1.8 2.3-4.1 4.2-6.8 5.6L16 6.3z"
+    />
+    <path
+      fill="#f5cc02"
+      d="M16 21.5c.9 0 1.5-.7 1.5-1.5 0-.9-.7-1.5-1.5-1.5-.9 0-1.5.7-1.5 1.5s.6 1.5 1.5 1.5z"
+    />
   </svg>
 );
 
