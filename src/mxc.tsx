@@ -4,56 +4,27 @@ import { SVGProps } from "react";
 const Mxc = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    data-name="Layer 1"
-    viewBox="0 0 400 443"
+    xmlSpace="preserve"
+    viewBox="0 0 138 138"
     {...props}
   >
-    <defs>
-      <linearGradient
-        id="a"
-        x1={-1103.34}
-        x2={-1102.96}
-        y1={588.27}
-        y2={588.27}
-        gradientTransform="matrix(312.47 0 0 -61.3 345134.98 36239.09)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset={0} stopColor="#00ffd9" />
-        <stop offset={0.85} stopColor="#09006e" />
-      </linearGradient>
-      <linearGradient
-        id="b"
-        x1={-1103.37}
-        x2={-1102.32}
-        y1={588.27}
-        y2={588.27}
-        gradientTransform="matrix(119.55 -207.07 -53.09 -30.65 163399.08 -210136.07)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset={0.08} stopColor="#00ffd9" />
-        <stop offset={0.68} stopColor="#064e8f" />
-        <stop offset={1} stopColor="#09006e" />
-      </linearGradient>
-    </defs>
-    <circle cx={200} cy={243.19} r={200} fill="#09006e" />
-    <rect
-      width={330.66}
-      height={64.87}
-      x={167.91}
-      y={143.5}
-      fill="url(#a)"
-      rx={32.44}
-      transform="rotate(-60 283.645 205.032)"
-    />
+    <linearGradient
+      id="a"
+      x1={53.77}
+      x2={84.784}
+      y1={124.758}
+      y2={10.988}
+      gradientTransform="matrix(1 0 0 -1 0 137.89)"
+      gradientUnits="userSpaceOnUse"
+    >
+      <stop offset={0} stopColor="#0f51fb" />
+      <stop offset={0.445} stopColor="#6324fb" />
+      <stop offset={1} stopColor="#ef3678" />
+    </linearGradient>
+    <circle cx={69} cy={69} r={69} fill="url(#a)" />
     <path
-      fill="#00ffd9"
-      d="m264.13 351.13-.64-101.27-48.25 81.27h-33.02l-48.25-77.78v97.78H65.71V128.91h61.59l72.38 118.41 70.48-118.41h61.59l.63 222.22h-68.25z"
-    />
-    <path
-      fill="url(#b)"
-      d="m246.2 261.82 94.08-162.94A32.42 32.42 0 0 1 384.58 87a32.43 32.43 0 0 1 11.88 44.3l-94.08 162.95a32.44 32.44 0 0 1-44.31 11.88 32.45 32.45 0 0 1-11.87-44.31Z"
-      data-name="Rectangle"
-      transform="translate(-50 -28.4)"
+      fill="#fff"
+      d="M88.2 52.5c0-.5.2-1.1.7-1.7.7-.8 1.5-.9 2-1h8.3c1 0 1.8-.8 1.8-1.8v-9.2c0-1-.8-1.8-1.8-1.8H90c-1 0-1.8.8-1.8 1.8V47c0 .5-.2 1.2-.8 1.9-.5.6-1.2.8-1.7.9h-8.5c-1 0-1.8.8-1.8 1.8v8.2c0 .5-.2 1.2-.8 1.9-.5.6-1.2.8-1.7.9h-7.8c-.5-.1-1.2-.3-1.7-.9-.5-.5-.7-1.1-.8-1.6v-8.5c0-1-.8-1.8-1.8-1.8h-8.5c-.5-.1-1.2-.3-1.7-.9-.5-.5-.7-1.1-.8-1.6v-8.5c0-1-.8-1.8-1.8-1.8h-9.2c-1 0-1.8.8-1.8 1.8V48c0 1 .8 1.8 1.8 1.8H47c.5 0 1.4.2 2 1 .8.9.7 2.1.7 2.3v6.8c0 .5-.2 1.2-.8 1.9-.5.6-1.2.8-1.7.9h-8.5c-1 0-1.8.8-1.8 1.8v34.8c0 1 .8 1.8 1.8 1.8H48c1 0 1.8-.8 1.8-1.8v-34c0-.5.2-1.1.7-1.7.7-.8 1.5-.9 2-1h7.2c.5 0 1.4.2 2 1 .8.9.7 2.1.7 2.3v7.8c0 1 .8 1.8 1.8 1.8h9.2c1 0 1.8-.8 1.8-1.8v-8.4c0-.5.2-1.1.7-1.7.7-.8 1.5-.9 2-1h7.2c.5 0 1.4.2 2 1 .8.9.7 2.1.7 2.3v33.4c0 1 .8 1.8 1.8 1.8h9.2c1 0 1.8-.8 1.8-1.8V64.4c0-1-.8-1.8-1.8-1.8h-8.5c-.5-.1-1.2-.3-1.7-.9-.5-.5-.7-1.1-.8-1.6l.4-7.6z"
     />
   </svg>
 );

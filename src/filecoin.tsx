@@ -33,9 +33,7 @@ const Filecoin = (props: SVGProps<SVGSVGElement>) => (
       y={0}
       maskUnits="userSpaceOnUse"
     >
-      <g filter="url(#Adobe_OpacityMaskFilter)">
-        <path id="a-logo_1_1_" d="M0 0h40v40H0V0z" className="st1" />
-      </g>
+      <path id="a-logo_1_1_" d="M0 0h40v40H0V0z" className="st1" />
     </mask>
     <path
       fill="#0090ff"
