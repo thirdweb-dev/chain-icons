@@ -20,25 +20,6 @@ const Banano = (props: SVGProps<SVGSVGElement>) => (
         <stop offset="0%" stopColor="#FFF" stopOpacity={0.15} />
         <stop offset="100%" stopColor="#FFF" stopOpacity={0} />
       </radialGradient>
-      <filter
-        id="c"
-        width="125.4%"
-        height="148.4%"
-        x="-12.7%"
-        y="-17.7%"
-        filterUnits="objectBoundingBox"
-      >
-        <feOffset dy={6} in="SourceAlpha" result="shadowOffsetOuter1" />
-        <feGaussianBlur
-          in="shadowOffsetOuter1"
-          result="shadowBlurOuter1"
-          stdDeviation={6.5}
-        />
-        <feColorMatrix
-          in="shadowBlurOuter1"
-          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.248131793 0"
-        />
-      </filter>
       <path
         id="b"
         d="M127.312 92.314c-55.777 7.022-81.46-42.086-76.905-46.877 3.008-3.163 7.685-3.353 11.738-3.462 18.649-.505 45.045 21.268 50.399 21.16 10.368-.211 25.967-16.69 36.188-30.274 4.278-5.683 31.003-14.245 28.04.684-9.61 48.419-42.353 57.874-49.46 58.77ZM49.688.686c55.777-7.022 81.46 42.086 76.903 46.877-3.008 3.163-7.683 3.353-11.736 3.462-18.649.505-45.045-21.27-50.399-21.16-10.368.211-25.967 16.69-36.19 30.274-4.276 5.683-31 14.245-28.037-.682C9.838 11.036 42.58 1.58 49.689.686Z"
@@ -57,7 +38,7 @@ const Banano = (props: SVGProps<SVGSVGElement>) => (
       <rect width={270} height={270} x={15} y={15} fill="#2A2A2E" rx={135} />
       <rect width={300} height={300} fill="url(#a)" rx={150} />
       <g transform="translate(61.8 103.8)">
-        <use xlinkHref="#b" fill="#000" filter="url(#c)" />
+        <use xlinkHref="#b" fill="#000" />
         <use xlinkHref="#b" fill="#FBDD11" />
       </g>
       <path

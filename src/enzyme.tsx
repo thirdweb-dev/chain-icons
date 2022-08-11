@@ -140,7 +140,6 @@ const Enzyme = (props: SVGProps<SVGSVGElement>) => (
           fill='url("#logo-circle_svg__e5ojfxdzkgl73-fill")'
           stroke="none"
           strokeWidth={1}
-          filter="url(#logo-circle_svg__e5ojfxdzkgl73-filter)"
           rx={194.39}
           ry={180.984}
           transform="translate(20.386 -18.98)"
@@ -158,7 +157,6 @@ const Enzyme = (props: SVGProps<SVGSVGElement>) => (
           fill='url("#logo-circle_svg__e5ojfxdzkgl74-fill")'
           stroke="none"
           strokeWidth={1}
-          filter="url(#logo-circle_svg__e5ojfxdzkgl74-filter)"
           rx={177.032}
           ry={156.717}
           transform="translate(-8.105 7.175)"
@@ -176,7 +174,6 @@ const Enzyme = (props: SVGProps<SVGSVGElement>) => (
           fill='url("#logo-circle_svg__e5ojfxdzkgl75-fill")'
           stroke="none"
           strokeWidth={1}
-          filter="url(#logo-circle_svg__e5ojfxdzkgl75-filter)"
           rx={208.93}
           ry={185.418}
           transform="translate(-13.43 11.918)"

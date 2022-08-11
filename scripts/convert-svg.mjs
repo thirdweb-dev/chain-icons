@@ -64,7 +64,7 @@ import autocrop from "svgo-autocrop";
               {
                 name: "removeAttrs",
                 params: {
-                  attrs: ["mask"],
+                  attrs: ["mask", "filter"],
                 },
               },
               {
