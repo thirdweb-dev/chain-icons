@@ -18,17 +18,19 @@
   "license": "Apache-2.0",
   "scripts": {
     "download": "node scripts/download-icons.mjs",
-    "generate:jsx": "node scripts/convert-svg.mjs",
+    "generate:jsx": "node scripts/convert-svg-to-jsx.mjs",
+    "generate:png": "node scripts/convert-svg-to-png.mjs",
     "generate:index": "node scripts/generate-index.mjs",
     "generate:build": "tsup --env.NODE_ENV production --dts --format esm,cjs",
     "clean": "rm -rf dist/ && rm -rf src/",
-    "build": "yarn clean && yarn download && yarn generate:jsx && yarn generate:index && yarn generate:build",
+    "build": "yarn clean && yarn download && yarn generate:jsx && yarn generate:png && yarn generate:index && yarn generate:build",
     "fix": "preconstruct fix"
   },
   "sideEffects": false,
   "files": [
     "dist/",
-    "svg/"
+    "svg/",
+    "png/"
   ],
   "keywords": [
     "chain",
@@ -54,6 +56,7 @@
     "@types/react": "^18",
     "got": "^12.0.0",
     "react": "*",
+    "sharp": "^0.31.3",
     "svgo-autocrop": "^1.1.1",
     "tsup": "^6.1.2",
     "typescript": "^4.5.3"
@@ -65,7 +68,7 @@
     "entry": [
       "src/"
     ],
-    "splitting": false,
+    "splitting": true,
     "sourcemap": true,
     "clean": true
   }
